@@ -1,5 +1,5 @@
 import MovieCard from "../../components/MovieCard/MovieCard"
-// import "./MoviePage.css"
+import "./MoviesListPage.css"
 
 export default function MoviesListPage(props) {
   return (

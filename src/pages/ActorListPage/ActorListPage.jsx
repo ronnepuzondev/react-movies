@@ -1,4 +1,4 @@
-// import "./ActorPage.css";
+import "./ActorListPage.css";
 import ActorCard from "../../components/ActorCard/ActorCard"
 
 export default function ActorPage({ movies }) {
@@ -10,7 +10,7 @@ export default function ActorPage({ movies }) {
   }, []);
 
   return (
-    <div className="container">
+    <div className="containerActor">
       {actorList.map((actor) => {
         return <ActorCard key={actor} actor={actor} />;
       })}

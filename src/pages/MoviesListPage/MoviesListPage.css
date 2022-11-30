@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+  }
+
+  .item-card {
+    border-style: solid;
+    margin: 1vw;
+    text-align: center;
+    height: 500px;
+    width: 300px;
+  }
+
+  .title {
+    margin: 1px;
+    background-color: black;
+    border-radius: 4px;
+  }
+
